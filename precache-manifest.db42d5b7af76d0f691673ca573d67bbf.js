@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6020f86553f0a3fb6dea72710d93a7b4",
+    "revision": "4819d8ca0e5c556d0b4b1b26065c5461",
     "url": "/weget/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weget/static/css/2.f81aa485.chunk.css"
   },
   {
-    "revision": "99c591bdfa0f94dd5d21",
+    "revision": "b39b7e7036165ff45122",
     "url": "/weget/static/css/main.f49c7a3d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weget/static/js/2.59ed48b2.chunk.js"
   },
   {
-    "revision": "99c591bdfa0f94dd5d21",
-    "url": "/weget/static/js/main.11bcec18.chunk.js"
+    "revision": "b39b7e7036165ff45122",
+    "url": "/weget/static/js/main.a5ce3a40.chunk.js"
   },
   {
     "revision": "2645871bbb4af0b4895b",

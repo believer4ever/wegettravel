@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weget/static/css/main.f49c7a3d.chunk.css",
-    "main.js": "/weget/static/js/main.11bcec18.chunk.js",
-    "main.js.map": "/weget/static/js/main.11bcec18.chunk.js.map",
+    "main.js": "/weget/static/js/main.a5ce3a40.chunk.js",
+    "main.js.map": "/weget/static/js/main.a5ce3a40.chunk.js.map",
     "runtime-main.js": "/weget/static/js/runtime-main.0cc5cf3f.js",
     "runtime-main.js.map": "/weget/static/js/runtime-main.0cc5cf3f.js.map",
     "static/css/2.f81aa485.chunk.css": "/weget/static/css/2.f81aa485.chunk.css",
     "static/js/2.59ed48b2.chunk.js": "/weget/static/js/2.59ed48b2.chunk.js",
     "static/js/2.59ed48b2.chunk.js.map": "/weget/static/js/2.59ed48b2.chunk.js.map",
     "index.html": "/weget/index.html",
-    "precache-manifest.9ed04df0f60482ab0b29734ba3b4a957.js": "/weget/precache-manifest.9ed04df0f60482ab0b29734ba3b4a957.js",
+    "precache-manifest.db42d5b7af76d0f691673ca573d67bbf.js": "/weget/precache-manifest.db42d5b7af76d0f691673ca573d67bbf.js",
     "service-worker.js": "/weget/service-worker.js",
     "static/css/2.f81aa485.chunk.css.map": "/weget/static/css/2.f81aa485.chunk.css.map",
     "static/css/main.f49c7a3d.chunk.css.map": "/weget/static/css/main.f49c7a3d.chunk.css.map",
@@ -42,6 +42,6 @@
     "static/css/2.f81aa485.chunk.css",
     "static/js/2.59ed48b2.chunk.js",
     "static/css/main.f49c7a3d.chunk.css",
-    "static/js/main.11bcec18.chunk.js"
+    "static/js/main.a5ce3a40.chunk.js"
   ]
 }
