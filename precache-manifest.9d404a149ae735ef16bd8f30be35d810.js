@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cddd114b2b51edf1819bed8f870318aa",
+    "revision": "2f8cec781bb6ff4d0e74faedb084f434",
     "url": "/wegettravel/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wegettravel/static/css/2.f81aa485.chunk.css"
   },
   {
-    "revision": "f3a0ff0f33cc6d8c4793",
+    "revision": "98258e2404030b6ae28b",
     "url": "/wegettravel/static/css/main.ba7d5857.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wegettravel/static/js/2.4a3af9ab.chunk.js"
   },
   {
-    "revision": "f3a0ff0f33cc6d8c4793",
-    "url": "/wegettravel/static/js/main.dda62e71.chunk.js"
+    "revision": "98258e2404030b6ae28b",
+    "url": "/wegettravel/static/js/main.d4e9913a.chunk.js"
   },
   {
     "revision": "b16db2b1d2994ce708c5",
