@@ -9,7 +9,7 @@ function App() {
   return (
     // <Router>
       <div className="App">
-      <Main />
+      <Hotels />
       {/* <Switch>
         <Route exact path="/" component={Main} />>
         <Route path="/hotel" component={Hotels} />
