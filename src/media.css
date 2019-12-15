@@ -1,0 +1,783 @@
+@media only screen and (min-width: 2000px) {
+    .ant-select-selection__rendered {
+        height: 99px!important;
+    }
+    .ant-select-search__field{
+        height: 99px!important;
+        border: none!important;
+        padding-left: 20px;
+        padding-top: 7px!important;
+        font-size: 26px!important;
+        margin-top: 3px!important;
+    }
+    .ant-select-selection__placeholder{
+        color: #4769C4!important;
+        height: 70px!important;
+    }
+    .fs24{
+        font-size: 34px;
+    }
+    .footer-center-title{
+        font-size: 24px;
+    }
+    .footer-center-subtitle{
+        font-size: 28px;
+    }
+    .footer-center-text{
+        font-size: 24px;
+    }
+    .ant-btn{
+        font-size: 20px!important;
+    }
+    .ant-dropdown-menu-item > a{
+        padding: 15px 22px;
+        font-size: 20px;
+    }
+    .ant-btn-icon-only.ant-btn-lg{
+        width: 60px !important;
+        height: 60px !important;
+    }
+    .popular .prev {
+        top: 60%;
+    }
+    .popular .next {
+        top: 60%;
+    }
+    .ant-select-dropdown{
+        font-size: 24px!important;
+    }
+    .footer-link-title{
+        font-size: 26px;
+    }
+    .footer-link{
+        font-size: 26px;
+    }
+    .copyright{
+        font-size: 24px;
+    }
+    .footer-social{
+        margin-right: 15px;
+        height: 4em;
+    }
+    .footer-logo{
+        font-size: 34px;
+    }
+    .DayPickerInput input{
+        height: 99px;
+        border: none;
+        font-size: 26px;
+        padding-top: 7px;
+    }
+    .InputFromTo-to input{
+        height: 99px;
+        border: none;
+        font-size: 26px;
+        padding-top: 7px;
+    }
+    .capacitybutton{
+        display: inline-block;
+        height: 99px!important;
+        border:none!important;
+        box-shadow: none!important;
+        padding-top: 0px;
+        font-size: 16px;
+    }
+    .searchprice{
+        width: 100%;
+        margin-top: -3px;
+        border-top-right-radius: 10px!important;
+        border-bottom-right-radius: 10px!important;
+        border-top-left-radius: 0!important;
+        border-bottom-left-radius: 0!important;
+        height: 108px!important;
+        font-size: 30px!important;;
+        margin-bottom: -3px;
+    }
+    .footer-right-button{
+        height: 3em!important;
+    }
+    .lineheight2 {
+        line-height: 1.5;
+    }
+    .certain-category-search-dropdown{
+        width: 500px!important;
+    }
+    .light .ant-dropdown-menu-item{
+        height: 4.6em;
+        font-size: 22px !important;
+    }
+    .spanpadding {
+        padding-top: 18px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+    .img{
+        height: 17em;
+    }
+    .carousel-card-title{
+        font-size: 34px;
+    }
+    .carousel-card-list{
+        font-size: 26px;
+    }
+    .carousel-card-count{
+        font-size: 27px;
+    }
+    .img1{
+        height: calc(51em + 44px)
+    }
+    .carouselsection .ant-carousel .slick-dots{
+        top: calc(51em + 90px);
+    }
+    .carouselsection .ant-carousel .slick-dots li button{
+        width: 25px!important;
+        height: 25px!important;
+    }
+    .fs20{
+        font-size: 30px;
+    }
+    .fs16{
+        font-size: 18px!important;
+    }
+    .popular_img{
+        height: 323px;
+    }
+    .whitetext{
+        font-size: 18px;
+    }
+    .popular_hotel_name{
+        margin-top: 25px;
+        line-height: 1;
+    }
+    .fs12{
+        font-size: 16px;
+    }
+    .popular .ant-btn-background-ghost{
+        font-size: 26px;
+    }
+    .fs18{
+        font-size: 22px;
+    }
+    .carousel-card-city{
+        font-size: 44px;
+    }
+    .navbar-link {
+        font-size: 20px;
+    }
+    .navbar-link i{
+        font-size: 26px!important;
+    }
+    .logo {
+        height: 60px;
+    }
+    .bluebutton{
+        border-color: #6EC6FF!important;
+        color:#6EC6FF!important;
+        border-radius: 10px!important;
+        width: 50px!important;
+        height: 50px!important;
+    }
+    .header-text {
+        margin-top: 18vw;
+    }
+    .ant-btn-icon-only.ant-btn-lg {
+        font-size: 20px;
+    }
+    .capacityplaceholder {
+        font-size: 22px;
+        position: absolute;
+        top: 40px;
+    }
+    .dates1{
+        font-size: 22px!important;
+        top: 35px;
+    }
+    .dates{
+        position: absolute;
+        top: 6px;
+        font-size: 24px!important;
+        transition: font-size .3s;
+        transition: top .3s;
+    }
+    .dates svg {
+        font-size: 22px!important;
+        transition: font-size .3s;
+    }
+    .light {
+        width: 100%;
+    }
+    .ant-select-auto-complete{
+        width: 100%!important;
+    }
+    .fs36{
+        font-size: 46px;
+    }
+    .fs160{
+        font-size: 160px;
+    }
+    .hotels_placeholder svg{
+        font-size: 26px;
+        transition: font-size .3s;
+    }
+    .hotels_placeholder .input_placeholder{
+        position: absolute;
+        top: 0px;
+        margin-left: 5px;
+        font-size: 26px!important;
+        transition: font-size .3s;
+    }
+    .hotels_placeholder_floated svg{
+        font-size: 22px;
+        transition: font-size .3s;
+    }
+    .hotels_placeholder_floated .input_placeholder{
+        position: absolute;
+        top: 0px;
+        margin-left: 5px;
+        font-size: 22px!important;
+        transition: font-size .3s;
+    }
+    .tours-img-block{
+        height: 750px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .tours-img{
+        width: 100%;
+        height: 750px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      .tours-img1{
+        width: 100%;
+        height: 370px;
+        object-fit: cover;
+      }
+      .tours-img2{
+        width: 100%;
+        height: 470px;
+        object-fit: cover;
+        border-top-right-radius: 10px;
+      }
+      .tours-img3{
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+        border-bottom-right-radius: 10px;
+      }
+      input {
+          outline: none;
+      }
+  }
+  
+@media screen and (min-width:1500px) and (max-width:2000px){
+    .fs160 {
+        font-size: 9vw;
+    }
+    .header-text {
+        margin-top: 12.5vw;
+    }
+    .header-text > .fs36 {
+        font-weight: 100;
+    }
+    .header-text > .fs160 {
+        font-size: 7.5vw;
+        letter-spacing: 10px;
+        font-weight: 600;
+    }
+    .fs36 {
+        font-size: 2vw;
+    }
+    .popular_img{
+        height: 283px;
+    }
+    .popular_hotel_name{
+        line-height: 1;
+    }
+    .popular-hotel-info{
+        padding-bottom: 2em !important;
+    }
+    .popular-padding {
+        padding-left: 7px!important;
+        padding-right: 7px!important;
+    }
+    input {
+        outline: none;
+    }
+  }
+@media screen and (min-width:1200px) and (max-width:1500px){
+    .fs160 {
+        font-size: 8vw;
+    }
+    .carousel-card-city {
+        font-size: 25px;
+        top: 25px;
+    }
+    .fs20 {
+        font-size: 18px;
+    }
+    .carousel-card-bg {
+        padding-top: 25px;
+    }
+    .pdtop10 {
+        padding-top: 5px;
+    }
+    .DayPickerInput {
+        padding-top: 5px;
+    }
+    .bg .navbar-link{
+        font-size: 12px!important;
+    }
+    .bg .anticon-down{
+        font-size: 10px!important;
+    }
+    .bg .logo{
+        height: 35px;
+    }
+    .popular-card p{
+        margin-bottom: 0.3em;
+    }
+    .carousel-card-list {
+        font-size: 14px;
+    }
+    .tours-img {
+        height: 500px;
+    }
+    .email-input::placeholder {
+        font-size: 16px;
+    }
+    .email-input {
+        height: 49px !important;
+    }
+    .email-button {
+        height: 49px !important;
+        font-size: 18px !important;
+    }
+    .tours-img1 {
+        height: 245px;
+    }
+    .tours-img2 {
+        height: 345px;
+    }
+    .tours-img3 {
+        height: 145px;
+    }
+    .tours-img-block {
+        height: 500px;
+    }
+    .img {
+        height: 10em;
+    }
+    .carouselsection .ant-carousel .slick-dots {
+        top: calc(30em + 90px);
+    }
+    .img1 {
+        height: calc(30em + 44px);
+    }
+    .carousel-card-title {
+        font-size: 20px;
+    }
+    .carousel-card-count {
+        font-size: 14px;
+    }
+    .popular_img {
+        height: 183px;
+    }
+    .fs36{
+        font-size: 30px;
+    }
+    .fs24 {
+        font-size: 22px;
+    }
+    .ant-select-search__field__wrap {
+        padding-top: 7px;
+    }
+    .navbar-dropdowns .ant-dropdown-menu-item{
+        font-size: 12px!important;
+    }
+    .header-text {
+        margin-top: 10vw;
+    }
+    .ant-select-selection__rendered {
+        height: 49px !important;
+    }
+    .InputFromTo-to input {
+        height: 49px;
+    }
+    .DayPickerInput input {
+        height: 49px;
+    }
+    .capacitybutton {
+        height: 49px!important;
+    }
+    .main .willgo {
+        height: 4em;
+    }
+    .dates1{
+        font-size: 14px!important;
+        top: 18px;
+    }
+    .hotels_placeholder_floated .input_placeholder {
+        font-size: 10px !important;
+    }
+    .dates{
+        top: 0px;
+        font-size: 10px!important;
+    }
+    .dates1 svg {
+        font-size: 16px !important;
+        transition: font-size .3s;
+    }
+    .hotels_placeholder svg {
+        font-size: 16px;
+        transition: font-size .3s;
+    }
+    .hotels_placeholder .input_placeholder {
+        font-size: 14px !important;
+    }
+    .searchprice{
+        height: 62px !important;
+    }
+    .ant-select-search__field {
+        height: 49px !important;
+    }
+    .capacityplaceholder {
+        font-size: 14px;
+        position: absolute;
+        top: 20px;
+    }
+    .ant-select-selection__placeholder{
+        top: 26%;
+    }
+    .lineheight2{
+        line-height: 1.5;
+    }
+    .lang-img{
+        height: 18px;
+        width: 18px;
+    }
+    .bgwhite {
+        width: 84% !important;
+    }
+    .popular_hotel_name{
+        line-height: 1.15;
+        margin-bottom: 0.5em;
+    }
+    .text1 {
+        margin-top: 45px;
+    }
+    .popular .ant-btn-background-ghost {
+        font-size: 12px;
+    }
+    .fs16 {
+        font-size: 14px!important;
+    }
+    .ant-carousel {
+        line-height: 1;
+    }
+    .anticon-star {
+        font-size: 14px;
+    }
+    .fs18 {
+        font-size: 16px;
+    }
+    .fs12 {
+        font-size: 10px;
+    }
+    input {
+        outline: none;
+    }
+  }
+  @media screen and (min-width:800px) and (max-width:1200px){
+    .bg{
+        background-size: cover!important;
+        background-position: center; 
+        background-attachment: fixed;
+    }
+    .header-title {
+        margin-top: 20vw!important;
+    }
+    .mobile-none{
+        display: none!important;
+    }
+    .header-text {
+        margin-top: 3vw;
+    }
+    .header-text .fs36 {
+        font-size: 3vw;
+    }
+    .header-text .fs160 {
+        font-size: 10vw;
+    }
+    .bgwhite{
+        background-color: transparent;
+    }
+    .mobile-search-form{
+        background-color:white;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .searchprice{
+        border-radius: 10px!important;
+        margin-top: 10px;
+        height: 70px !important;
+    }
+    #header-title-text {
+        width: 92%!important;
+        margin: auto!important;
+    }
+    .arrowbuttons {
+        display: none!important;
+    }
+    input {
+        outline: none;
+    }
+    .hotels_placeholder {
+        padding-left: 0px!important;
+    }
+    .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
+        margin-left: 0px!important;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .footer-block-main {
+        width: 90%;
+        margin: auto;
+    }
+    .footer-link-block {
+        padding-left: 0px!important;
+    }
+    .footer-link-title {
+        border-bottom: 1.5px solid white;
+        width: 50%;
+        display: block;
+        font-size: 25px;
+        line-height: 2;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .border-right {
+        border: none;
+    }
+    .footer-right-button {
+        font-size: 1.5em!important;
+        height: auto!important;
+        padding: 10px!important;
+        margin-bottom: 10px!important;
+    }
+  }
+  @media screen and (max-width:800px){
+    .header-text .fs36 {
+        font-size: 4vw;
+    }
+    .header-title {
+        margin-top: 20vw!important;
+    }
+    .carousel-slider-img {
+        display: none!important;
+    }
+    .header-text .fs160 {
+        font-size: 11vw;
+    }
+    .bgwhite{
+        background-color: transparent;
+    }
+    .dropdowns{
+        padding-top: 4vw !important;
+    }
+    .searchprice{
+        border-radius: 10px!important;
+        margin-top: 10px;
+        height: 70px !important;
+    }
+    .mobile-search-form{
+        background-color:white;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    .date1{
+        display: inline-block;
+        width: 40%;
+    }
+    .logo {
+        height: 30px;
+    }
+    .brand {
+        padding-top: 2vw !important;
+    }
+    .DayPickerInput{
+        width: 40%;
+    }
+    .InputFromTo-to{
+        width: 40%;
+    }
+    .hotels_placeholder {
+        padding-left: 0px;
+    }
+    .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
+        margin-left: 0px;
+    }
+    .ant-btn-circle.ant-btn-lg, .ant-btn-circle-outline.ant-btn-lg {
+        display: none;
+    }
+    #header-title-text {
+        width: 92%!important;
+        margin: auto!important;
+    }
+    .arrowbuttons {
+        display: none!important;
+    }
+    input {
+        outline: none!important;
+    }
+    .hotels_placeholder {
+        padding-left: 0px!important;
+    }
+    .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
+        margin-left: 0px!important;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .footer-block-main {
+        width: 90%;
+        margin: auto;
+    }
+    .footer-link-block {
+        padding-left: 0px!important;
+    }
+    .footer-link-title {
+        border-bottom: 1.5px solid white;
+        width: 50%;
+        display: block;
+        font-size: 25px;
+        line-height: 2;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .border-right {
+        border: none;
+    }
+    .footer-right-button {
+        font-size: 1.5em!important;
+        height: auto!important;
+        padding: 10px!important;
+        margin-bottom: 10px!important;
+    }
+  }
+  @media screen and (max-width: 600px) {
+      .header-title {
+          margin-top: 30vw!important;
+      }
+      .popular-padding {
+        padding: 10px!important;
+      }
+      .popular {
+          margin-top: 0px!important;
+      }
+      .carousel-slider-img {
+          display: none!important;
+      }
+      .fs36 {
+        font-size: 30px;
+      }
+
+      /* .slick-slide {
+          display: none!important;
+      } */
+      .arrowbuttons {
+          display: none!important;
+      }
+      input {
+          outline: none!important;
+      }
+      .hotels_placeholder {
+          padding-left: 0px!important;
+      }
+      .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
+          margin-left: 0px!important;
+      }
+      .footer {
+          padding-top: 50px;
+      }
+      .footer-block-main {
+          width: 90%;
+          margin: auto;
+      }
+      .footer-link-block {
+          padding-left: 0px!important;
+      }
+      .footer-link-title {
+          border-bottom: 1.5px solid white;
+          width: 50%;
+          display: block;
+          font-size: 25px;
+          line-height: 2;
+          text-transform: uppercase;
+          font-weight: bold;
+          margin-top: 20px;
+      }
+      .border-right {
+          border: none;
+      }
+      .footer-right-button {
+          font-size: 1.5em!important;
+          height: auto!important;
+          padding: 10px!important;
+          margin-bottom: 10px!important;
+      }
+      .tours-img-block {
+        padding-left: 10px;
+        padding-right: 10px!important;
+        border-radius: 0!important;
+        height: 400px;
+    }
+    .tour-timer{
+        display: none;
+        }
+        .tour-timer1{
+        display: none;
+        }
+        .tours-img1 {
+        height: 400px;
+        padding: 10px 5px 0 5px!important;
+        }
+        .tours-img2 {
+        height: 400px;
+        padding: 10px 5px 0 5px!important;
+        }
+        .text2{
+        padding-left: 10px;
+        padding-right: 10px;
+        }
+        .email-input {
+        height: 49px!important;
+        }
+        .email-button {
+        margin-top: 10px;
+        height: 49px!important;
+        font-size: 18px !important;
+        }
+        .tours-img3 {
+        height: 400px;
+        padding: 10px 5px 0 5px!important;
+        }
+        .tours-img {
+        border-radius: 0!important;
+        height: 400px;
+        }
+        .fs24 {
+        font-size: 20px;
+        }
+        .popular_hotel_name {
+          line-height: 1.1;
+        }
+
+  }
+  @media screen and (max-width: 300px) {
+
+  }

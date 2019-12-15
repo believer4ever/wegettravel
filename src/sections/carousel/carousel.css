@@ -1,0 +1,96 @@
+.text1{
+    color: #fff;
+    font-family: 'HelveticaNeueCyr-Light';
+    text-align: center;
+    margin-top: 65px;
+
+}
+.gray{
+    color: #BFC1D2;
+}
+.img{
+    width: 100%;
+    border-radius: 10px;
+    height: 12em;
+    object-fit: cover;
+}
+.img1{
+    width: 100%;
+    border-radius: 10px;
+    height: calc(36em + 44px);
+    margin-top: 22px;
+    object-fit: cover;
+}
+  .fs36{
+    font-size: 36px;
+  }
+  .fs24{
+    font-size: 24px;
+  }
+.carousel-card-list{
+    color: #D2D2D7;
+    font-family: 'HelveticaNeueCyr-Bold';
+    padding-left: 26px;
+    padding-right: 16px;
+    font-size: 16px;
+}
+.carousel-card-title{
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+.lineheight2{
+    line-height: 2;
+}
+.carousel-card-count{
+    text-decoration: underline;
+    float: right;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size: 17px;
+}
+.active-carousel-card{
+    border: 2px solid #6EC6FF;
+    border-radius: 10px;
+}
+.carouselsection .ant-carousel {
+    line-height: 0!important;
+}
+.carousel-card-poster{
+    position: relative;
+    padding-left: 22px;
+}
+.carousel-card-city{
+    position: absolute;
+    font-size: 34px;
+    top: 20px;
+    right: 30px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+}
+.carousel-card-bg{
+    position: absolute;
+    color: white;
+    padding-top: 30px;
+    padding-left: 10px;
+    bottom: 0;
+    right: 0;
+    width: 45%;
+    height: 15%;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.16) -9.62%, rgba(17, 12, 12, 0.3) 27.88%, rgba(37, 26, 26, 0.32) 73.02%, rgba(81, 61, 61, 0) 123.72%);
+}
+.carousel-card-separator{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.carouselsection .ant-carousel .slick-dots li button {
+    width: 15px!important;
+    height: 15px!important;
+    border-radius: 50%!important;
+}
+.carouselsection .ant-carousel .slick-dots li.slick-active button {
+    background: linear-gradient(0deg, #2196F3, #2196F3)!important;
+}
+.carouselsection .ant-carousel .slick-dots li {
+    margin-right: 15px!important;
+}

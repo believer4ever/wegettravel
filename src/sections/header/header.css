@@ -1,0 +1,292 @@
+.main .bg{
+    background: url('./img/bg.jpg'), #C4C4C4;;
+    background-size: cover;
+    height: 100vh;
+    background-position: center; 
+    background-attachment: fixed;
+}
+.date1{
+    display: inline-block;
+    width: 48%;
+}
+.logo{
+    height: 40px;
+    cursor: pointer;
+}
+.ant-select-selection__placeholder{
+    top: 55%!important;
+}
+.main .gradient{
+    background: radial-gradient(42.65% 42.65% at 50% 51.91%, rgba(196, 196, 196, 0) 33.33%, rgba(80, 128, 207, 0.169159) 62.5%, rgba(17, 37, 141, 0.2387) 100%);
+    height: 100vh;
+}
+.black{
+    background-color: #272b33!important;
+    box-shadow: none!important;
+}
+.black .ant-dropdown-menu-item > a{
+    color: white!important;
+}
+.black .ant-dropdown-menu-item > a:hover{
+    background-color: transparent!important;
+}
+.black .ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+    background-color: #d0d0d038!important;
+}
+.ant-dropdown-menu-item{
+    padding-top: 3px!important;
+}
+.main .navbar{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vw;
+}
+.brand{
+    padding-top: 1vw!important;
+    padding-left: 2vw!important;
+}
+.navbar-link{
+    color:white;
+    margin-left: 2vw;
+}
+.navbar-link:hover{
+    color:white;
+}
+.text-align-right{
+    text-align: right;
+}
+.dropdowns{
+    padding-right: 2vw!important;
+    padding-top: 2vw!important;
+}
+.padding0{
+    padding: 0!important;
+    margin-bottom: 0;
+}
+.text{
+    color: white;
+    line-height: 1;
+    font-weight: 600;
+    font-family: 'HelveticaNeueCyr-Medium'!important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+.fs36{
+    font-size: 36px;
+}
+.fs160{
+    font-size: 140px;
+}
+.header-text{
+    margin-top: 10vw;
+}
+.certain-search-item-count{
+    float: right;
+}
+.ant-select-dropdown-menu-item-group-title{
+    display: none!important;
+}
+.ant-select-selection__rendered{
+    height: 69px!important;
+}
+.ant-select-search__field{
+    height: 69px!important;
+    border: none!important;
+    padding-left: 20px;
+    padding-top: 7px!important;
+}
+.ant-select-selection__placeholder{
+    color: #4769C4!important;
+    height: 40px!important;
+}
+
+.bgwhite{
+    /* padding-left: 10px!important; */
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 1.5vw;
+}
+.ant-select-selection{
+    border-radius: 10px;
+}
+.ant-select-search__field:focus{
+    box-shadow: none!important;
+}
+.ant-select-dropdown{
+    border-radius: 10px!important;
+    margin-top: -5px!important;
+    left: 112px !important;
+}
+.ant-select-dropdown-menu-item:first-child{
+    border-top-left-radius: 10px!important;
+    border-top-right-radius: 10px!important;
+}
+.ant-select-dropdown-menu-item:last-child {
+    border-bottom-left-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+}
+.hotels_placeholder{
+    position: 'relative';
+    padding-left: 4px;
+}
+.hotels_placeholder svg{
+    font-size: 22px;
+    transition: font-size .3s;
+}
+.hotels_placeholder .input_placeholder{
+    position: absolute;
+    top: 0px;
+    margin-left: 5px;
+    font-size: 16px!important;
+    transition: font-size .3s;
+}
+
+.hotels_placeholder_floated{
+    position: 'relative';
+    padding-left: 4px;
+    top: -5px;
+    
+}
+.hotels_placeholder_floated svg{
+    font-size: 14px;
+    transition: font-size .3s;
+}
+.hotels_placeholder_floated .input_placeholder{
+    position: absolute;
+    top: 0px;
+    margin-left: 5px;
+    font-size: 12px!important;
+    transition: font-size .3s;
+}
+.ant-select-selection__placeholder{
+    display: block!important;
+}
+.ant-select-focused .ant-select-selection__placeholder{
+    top: 26%!important;
+    transition: top .3s;
+}
+.ant-select-focused .ant-select-show-search{
+    top: 26%!important;
+    transition: top .3s;
+}
+.InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+    background-color: #f0f8ff !important;
+    color: #4a90e2;
+}
+.InputFromTo .DayPicker-Day {
+    border-radius: 0 !important;
+}
+.InputFromTo .DayPicker-Day--start {
+    border-radius: 5px !important;
+}
+.InputFromTo .DayPicker-Day--end {
+    border-radius: 5px !important;
+}
+.InputFromTo .DayPickerInput-Overlay {
+    width: 550px;
+}
+.InputFromTo-to .DayPickerInput-Overlay {
+    margin-left: -198px;
+}
+.DayPickerInput input{
+    height: 69px;
+    border: none;
+    font-size: 16px;
+    padding-top: 7px;
+}
+.InputFromTo-to input{
+    height: 69px;
+    border: none;
+    font-size: 16px;
+    padding-top: 7px;
+}
+.DayPickerInput{
+    width: 48%;
+}
+.separator{
+    display: inline-block;
+    width: 4%;
+}
+.InputFromTo-to{
+    display: inline-block;
+    width: 48%;
+}
+.dates{
+    position: absolute;
+    top: 6px;
+    font-size: 14px!important;
+    transition: font-size .3s;
+    transition: top .3s;
+}
+.dates1{
+    position: absolute;
+    font-size: 16px!important;
+    top: 21px;
+    transition: font-size .3s;
+    transition: top .3s;
+}
+.dates1 svg{
+    font-size: 22px!important;
+    transition: font-size .3s;
+}
+.dates svg{
+    font-size: 14px!important;
+    transition: font-size .3s;
+}
+.primary{
+    color: #4769C4 !important;
+}
+
+.separator{
+    color: #ccc;
+}
+.capacitybutton{
+    display: inline-block;
+    height: 69px!important;
+    border:none!important;
+    box-shadow: none!important;
+    padding-top: 0px;
+    font-size: 16px;
+}
+.searchprice{
+    width: 100%;
+    margin-top: -3px;
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    height: 78px!important;
+    font-size: 20px!important;;
+    margin-bottom: -3px;
+}
+.translatey{
+    transform: translateY(3px);
+}
+.capacitybutton svg{
+    font-size: 22px;
+    transform: translateY(3px);
+}
+.spanpadding{
+    padding-top: 4px; display: inline-block;
+}
+.light .ant-dropdown-menu-item{
+    height: 3.3em;
+}
+.light{
+    width: 20em;
+}
+.bluebutton{
+    border-color: #6EC6FF!important;
+    color:#6EC6FF!important;
+    border-radius: 10px!important;
+    width: 30px!important;
+    height: 30px!important;
+}
+.light .ant-btn-link{
+    color: black!important;
+}
+.lang-img{
+    height: 18px;
+    width: 18px;
+}
