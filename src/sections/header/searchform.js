@@ -67,7 +67,7 @@ class SearchForm extends Component {
         this.state = {  
             focus: 0 ,
             val: '',
-            adult: 2,
+            adult: 1,
             children: 0,
             baby: 0,
             room: 1,
@@ -216,7 +216,7 @@ class SearchForm extends Component {
             </Menu>
           );
       return (
-        <Col xl={{ offset: 2, span: 19 }} lg={{ offset: 2, span: 20 }} md={{ offset: 2, span: 20 }} sm={{ offset: 2, span: 20 }} xs={{ offset: 1, span: 22 }} className="bgwhite">
+        <Col xl={{ offset: 1, span: 21 }} lg={{ offset: 2, span: 20 }} md={{ offset: 2, span: 20 }} sm={{ offset: 2, span: 20 }} xs={{ offset: 1, span: 22 }} className="bgwhite">
         <Row>
             <Col xl={{ span: 6 }} className="mobile-search-form" style={{ borderRight: '1px solid #D2D2D7', paddingLeft: '10px' }}>
             <OutsideClickHandler
@@ -236,11 +236,11 @@ class SearchForm extends Component {
                     className="certain-category-search"
                     dropdownClassName="certain-category-search-dropdown"
                     dropdownMatchSelectWidth={false}
-                    dropdownStyle={{ width: '300px', marginLeft: this.props.left }}
+                    dropdownStyle={{ width: '300px' }}
                     size="large"
                     onFocus={this.onFocus}
                     onSelect={this.onSelect}
-                    style={{ width: 'auto' }}
+                    style={{ width: '300px' }}
                     dataSource={options}
                     onChange={this.onChange}
                     placeholder={<div className={[this.state.focus == 0 ? "hotels_placeholder" : "hotels_placeholder_floated"]}><FiMapPin /> <span className="input_placeholder">В какой город едем? </span></div>}
@@ -334,7 +334,7 @@ class SearchForm extends Component {
             >
                 <div>
                   <div className="capacitybutton primary dates"><FiUser /> Кто поедет?</div>
-                  <div className="capacityplaceholder">{ this.state.adult } взрослых, { this.state.room } { this.state.room  > 1 ? 'номерa' : 'номер' }</div>
+                  <div className="capacityplaceholder">1 взрослых, без детей, 1 номер</div>
                 </div>
             </Dropdown>
             </Col>

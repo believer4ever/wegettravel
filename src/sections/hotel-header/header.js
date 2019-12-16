@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Input, Menu, Icon, Affix, Dropdown } from "antd";
+import { Row, Col, Input, Menu, Icon, Dropdown } from "antd";
 import "./hotel-header.css";
 import SearchForm from "../header/searchform";
 class HotelHeader extends Component {
@@ -27,7 +27,7 @@ class HotelHeader extends Component {
     const user = (
       <Menu>
         <Menu.Item key="0">
-          <a href="http://join.hotelier.uz">Зарегистрировать свой объект</a>
+          <a href="http://www.alipay.com/">Зарегистрировать свой объект</a>
         </Menu.Item>
         <Menu.Item key="1">
           <a href="http://www.taobao.com/">Войти</a>
@@ -35,13 +35,12 @@ class HotelHeader extends Component {
       </Menu>
     );
     return (
-      <div className="bg hotel-screen">
+      <div className="bg">
         <div className="gradient">
           <div className="gradient">
             <Row className="navbar">
               <Col xs={2} sm={4} md={6} lg={8} xl={10} className="brand">
                 <img
-                  onClick={() => window.location.href="/"}
                   src={require("../header/img/WeGetTravel.png")}
                   className="logo"
                 />
@@ -75,11 +74,9 @@ class HotelHeader extends Component {
                 </Dropdown>
               </Col>
             </Row>
-            <Affix offsetTop="0">
-              <Row className="sub-navbar">
-                <SearchForm left="90px" />
-              </Row>
-            </Affix>
+            <Row className="sub-navbar">
+              <SearchForm />
+            </Row>
           </div>
         </div>
       </div>

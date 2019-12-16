@@ -178,7 +178,7 @@
         height: 50px!important;
     }
     .header-text {
-        margin-top: 18vw;
+        margin-top: 20vw;
     }
     .ant-btn-icon-only.ant-btn-lg {
         font-size: 20px;
@@ -266,9 +266,6 @@
         object-fit: cover;
         border-bottom-right-radius: 10px;
       }
-      input {
-          outline: none;
-      }
   }
   
 @media screen and (min-width:1500px) and (max-width:2000px){
@@ -276,18 +273,7 @@
         font-size: 9vw;
     }
     .header-text {
-        margin-top: 12.5vw;
-    }
-    .header-text > .fs36 {
-        font-weight: 100;
-    }
-    .header-text > .fs160 {
-        font-size: 7.5vw;
-        letter-spacing: 10px;
-        font-weight: 600;
-    }
-    .fs36 {
-        font-size: 2vw;
+        margin-top: 15vw;
     }
     .popular_img{
         height: 283px;
@@ -302,9 +288,6 @@
         padding-left: 7px!important;
         padding-right: 7px!important;
     }
-    input {
-        outline: none;
-    }
   }
 @media screen and (min-width:1200px) and (max-width:1500px){
     .fs160 {
@@ -312,7 +295,7 @@
     }
     .carousel-card-city {
         font-size: 25px;
-        top: 25px;
+        top: 10px;
     }
     .fs20 {
         font-size: 18px;
@@ -323,7 +306,7 @@
     .pdtop10 {
         padding-top: 5px;
     }
-    .DayPickerInput {
+    .DayPickerInput{
         padding-top: 5px;
     }
     .bg .navbar-link{
@@ -397,7 +380,7 @@
         font-size: 12px!important;
     }
     .header-text {
-        margin-top: 10vw;
+        margin-top: 12vw;
     }
     .ant-select-selection__rendered {
         height: 49px !important;
@@ -448,17 +431,13 @@
         top: 20px;
     }
     .ant-select-selection__placeholder{
-        top: 26%;
+        top: 60%;
     }
     .lineheight2{
         line-height: 1.5;
     }
-    .lang-img{
-        height: 18px;
-        width: 18px;
-    }
-    .bgwhite {
-        width: 84% !important;
+    .bgwhite{
+        width: 89%!important;
     }
     .popular_hotel_name{
         line-height: 1.15;
@@ -484,9 +463,6 @@
     }
     .fs12 {
         font-size: 10px;
-    }
-    input {
-        outline: none;
     }
   }
   @media screen and (min-width:800px) and (max-width:1200px){
@@ -523,51 +499,6 @@
         margin-top: 10px;
         height: 70px !important;
     }
-    #header-title-text {
-        width: 92%!important;
-        margin: auto!important;
-    }
-    .arrowbuttons {
-        display: none!important;
-    }
-    input {
-        outline: none;
-    }
-    .hotels_placeholder {
-        padding-left: 0px!important;
-    }
-    .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
-        margin-left: 0px!important;
-    }
-    .footer {
-        padding-top: 50px;
-    }
-    .footer-block-main {
-        width: 90%;
-        margin: auto;
-    }
-    .footer-link-block {
-        padding-left: 0px!important;
-    }
-    .footer-link-title {
-        border-bottom: 1.5px solid white;
-        width: 50%;
-        display: block;
-        font-size: 25px;
-        line-height: 2;
-        text-transform: uppercase;
-        font-weight: bold;
-        margin-top: 20px;
-    }
-    .border-right {
-        border: none;
-    }
-    .footer-right-button {
-        font-size: 1.5em!important;
-        height: auto!important;
-        padding: 10px!important;
-        margin-bottom: 10px!important;
-    }
   }
   @media screen and (max-width:800px){
     .header-text .fs36 {
@@ -576,7 +507,7 @@
     .header-title {
         margin-top: 20vw!important;
     }
-    .carousel-slider-img {
+    .mobile-none{
         display: none!important;
     }
     .header-text .fs160 {
@@ -623,114 +554,18 @@
     .ant-btn-circle.ant-btn-lg, .ant-btn-circle-outline.ant-btn-lg {
         display: none;
     }
-    #header-title-text {
-        width: 92%!important;
-        margin: auto!important;
-    }
-    .arrowbuttons {
-        display: none!important;
-    }
-    input {
-        outline: none!important;
-    }
-    .hotels_placeholder {
-        padding-left: 0px!important;
-    }
-    .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
-        margin-left: 0px!important;
-    }
-    .footer {
-        padding-top: 50px;
-    }
-    .footer-block-main {
-        width: 90%;
-        margin: auto;
-    }
-    .footer-link-block {
-        padding-left: 0px!important;
-    }
-    .footer-link-title {
-        border-bottom: 1.5px solid white;
-        width: 50%;
-        display: block;
-        font-size: 25px;
-        line-height: 2;
-        text-transform: uppercase;
-        font-weight: bold;
-        margin-top: 20px;
-    }
-    .border-right {
-        border: none;
-    }
-    .footer-right-button {
-        font-size: 1.5em!important;
-        height: auto!important;
-        padding: 10px!important;
-        margin-bottom: 10px!important;
-    }
   }
   @media screen and (max-width: 600px) {
       .header-title {
           margin-top: 30vw!important;
       }
-      .popular-padding {
-        padding: 10px!important;
-      }
-      .popular {
-          margin-top: 0px!important;
-      }
-      .carousel-slider-img {
-          display: none!important;
+      .popular-padding{
+          padding: 10px!important;
       }
       .fs36 {
         font-size: 30px;
-      }
-
-      /* .slick-slide {
-          display: none!important;
-      } */
-      .arrowbuttons {
-          display: none!important;
-      }
-      input {
-          outline: none!important;
-      }
-      .hotels_placeholder {
-          padding-left: 0px!important;
-      }
-      .ant-select-auto-complete.ant-select .ant-select-selection__placeholder {
-          margin-left: 0px!important;
-      }
-      .footer {
-          padding-top: 50px;
-      }
-      .footer-block-main {
-          width: 90%;
-          margin: auto;
-      }
-      .footer-link-block {
-          padding-left: 0px!important;
-      }
-      .footer-link-title {
-          border-bottom: 1.5px solid white;
-          width: 50%;
-          display: block;
-          font-size: 25px;
-          line-height: 2;
-          text-transform: uppercase;
-          font-weight: bold;
-          margin-top: 20px;
-      }
-      .border-right {
-          border: none;
-      }
-      .footer-right-button {
-          font-size: 1.5em!important;
-          height: auto!important;
-          padding: 10px!important;
-          margin-bottom: 10px!important;
-      }
-      .tours-img-block {
+    }
+    .tours-img-block{
         padding-left: 10px;
         padding-right: 10px!important;
         border-radius: 0!important;
@@ -738,46 +573,45 @@
     }
     .tour-timer{
         display: none;
-        }
-        .tour-timer1{
+    }
+    .tour-timer1{
         display: none;
-        }
-        .tours-img1 {
+    }
+    .tours-img1 {
         height: 400px;
         padding: 10px 5px 0 5px!important;
-        }
-        .tours-img2 {
+    }
+    .tours-img2 {
         height: 400px;
         padding: 10px 5px 0 5px!important;
-        }
-        .text2{
+    }
+    .text2{
         padding-left: 10px;
         padding-right: 10px;
-        }
-        .email-input {
+    }
+    .email-input {
         height: 49px!important;
-        }
-        .email-button {
+    }
+    .email-button {
         margin-top: 10px;
         height: 49px!important;
         font-size: 18px !important;
-        }
-        .tours-img3 {
+    }
+    .tours-img3 {
         height: 400px;
         padding: 10px 5px 0 5px!important;
-        }
-        .tours-img {
+    }
+    .tours-img {
         border-radius: 0!important;
         height: 400px;
-        }
-        .fs24 {
+    }
+    .fs24 {
         font-size: 20px;
-        }
-        .popular_hotel_name {
+    }
+      .popular_hotel_name {
           line-height: 1.1;
-        }
-
-  }
-  @media screen and (max-width: 300px) {
-
+      }
+      .popular {
+          margin-top: 0px!important;
+      }
   }

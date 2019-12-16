@@ -1,444 +1,435 @@
-@font-face {
-  font-family: "HelveticaNeueCyr-Roman";
+
+  @font-face {
+  font-family: 'HelveticaNeueCyr-Roman';
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeueCyr-Roman"),
-    url("./fonts/HelveticaNeueCyr-Roman.woff") format("woff");
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr-Thin";
+  src: local('HelveticaNeueCyr-Roman'), url('./fonts/HelveticaNeueCyr-Roman.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'HelveticaNeueCyr-Thin';
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeueCyr-Thin"),
-    url("./fonts/helveticaneuecyr-thin.woff") format("woff");
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr-UltraLight";
+  src: local('HelveticaNeueCyr-Thin'), url('./fonts/helveticaneuecyr-thin.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'HelveticaNeueCyr-UltraLight';
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeueCyr-UltraLight"),
-    url("./fonts/HelveticaNeueCyr-UltraLight.woff") format("woff");
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr-Light";
+  src: local('HelveticaNeueCyr-UltraLight'), url('./fonts/HelveticaNeueCyr-UltraLight.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'HelveticaNeueCyr-Light';
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeueCyr-Light"),
-    url("./fonts/HelveticaNeueCyr-Light.woff") format("woff");
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr-Medium";
+  src: local('HelveticaNeueCyr-Light'), url('./fonts/HelveticaNeueCyr-Light.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'HelveticaNeueCyr-Medium';
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeueCyr-Medium"),
-    url("./fonts/helveticaneuecyr-medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "HelveticaNeueCyr-Bold";
+  src: local('HelveticaNeueCyr-Medium'), url('./fonts/helveticaneuecyr-medium.woff') format('woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'HelveticaNeueCyr-Bold';
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeueCyr-Bold"),
-    url("./fonts/helveticaneuecyr-bold.woff") format("woff");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-MediumItalic.eot");
-  src: local("Roboto Medium Italic"), local("Roboto-MediumItalic"),
-    url("./fonts/Roboto-MediumItalic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-MediumItalic.woff") format("woff"),
-    url("./fonts/Roboto-MediumItalic.ttf") format("truetype");
-  font-weight: 500;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Italic.eot");
-  src: local("Roboto Italic"), local("Roboto-Italic"),
-    url("./fonts/Roboto-Italic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Italic.woff") format("woff"),
-    url("./fonts/Roboto-Italic.ttf") format("truetype");
-  font-weight: normal;
-  font-style: italic;
+  src: local('HelveticaNeueCyr-Bold'), url('./fonts/helveticaneuecyr-bold.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-MediumItalic.eot');
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'),
+        url('./fonts/Roboto-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-MediumItalic.woff') format('woff'),
+        url('./fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Bold.eot");
-  src: local("Roboto Bold"), local("Roboto-Bold"),
-    url("./fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Bold.woff") format("woff"),
-    url("./fonts/Roboto-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Italic.eot');
+    src: local('Roboto Italic'), local('Roboto-Italic'),
+        url('./fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Italic.woff') format('woff'),
+        url('./fonts/Roboto-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Regular.eot");
-  src: local("Roboto"), local("Roboto-Regular"),
-    url("./fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Regular.woff") format("woff"),
-    url("./fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.eot');
+    src: local('Roboto Bold'), local('Roboto-Bold'),
+        url('./fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Bold.woff') format('woff'),
+        url('./fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Medium.eot");
-  src: local("Roboto Medium"), local("Roboto-Medium"),
-    url("./fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Medium.woff") format("woff"),
-    url("./fonts/Roboto-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.eot');
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('./fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Regular.woff') format('woff'),
+        url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-BoldItalic.eot");
-  src: local("Roboto Bold Italic"), local("Roboto-BoldItalic"),
-    url("./fonts/Roboto-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-BoldItalic.woff") format("woff"),
-    url("./fonts/Roboto-BoldItalic.ttf") format("truetype");
-  font-weight: bold;
-  font-style: italic;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Medium.eot');
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+        url('./fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Medium.woff') format('woff'),
+        url('./fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-ThinItalic.eot");
-  src: local("Roboto Thin Italic"), local("Roboto-ThinItalic"),
-    url("./fonts/Roboto-ThinItalic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-ThinItalic.woff") format("woff"),
-    url("./fonts/Roboto-ThinItalic.ttf") format("truetype");
-  font-weight: 100;
-  font-style: italic;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-BoldItalic.eot');
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'),
+        url('./fonts/Roboto-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-BoldItalic.woff') format('woff'),
+        url('./fonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Black.eot");
-  src: local("Roboto Black"), local("Roboto-Black"),
-    url("./fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Black.woff") format("woff"),
-    url("./fonts/Roboto-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-ThinItalic.eot');
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'),
+        url('./fonts/Roboto-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-ThinItalic.woff') format('woff'),
+        url('./fonts/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Light.eot");
-  src: local("Roboto Light"), local("Roboto-Light"),
-    url("./fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Light.woff") format("woff"),
-    url("./fonts/Roboto-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Black.eot');
+    src: local('Roboto Black'), local('Roboto-Black'),
+        url('./fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Black.woff') format('woff'),
+        url('./fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-LightItalic.eot");
-  src: local("Roboto Light Italic"), local("Roboto-LightItalic"),
-    url("./fonts/Roboto-LightItalic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-LightItalic.woff") format("woff"),
-    url("./fonts/Roboto-LightItalic.ttf") format("truetype");
-  font-weight: 300;
-  font-style: italic;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Light.eot');
+    src: local('Roboto Light'), local('Roboto-Light'),
+        url('./fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Light.woff') format('woff'),
+        url('./fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-BlackItalic.eot");
-  src: local("Roboto Black Italic"), local("Roboto-BlackItalic"),
-    url("./fonts/Roboto-BlackItalic.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-BlackItalic.woff") format("woff"),
-    url("./fonts/Roboto-BlackItalic.ttf") format("truetype");
-  font-weight: 900;
-  font-style: italic;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-LightItalic.eot');
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
+        url('./fonts/Roboto-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-LightItalic.woff') format('woff'),
+        url('./fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("./fonts/Roboto-Thin.eot");
-  src: local("Roboto Thin"), local("Roboto-Thin"),
-    url("./fonts/Roboto-Thin.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Roboto-Thin.woff") format("woff"),
-    url("./fonts/Roboto-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-BlackItalic.eot');
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'),
+        url('./fonts/Roboto-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-BlackItalic.woff') format('woff'),
+        url('./fonts/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
 }
 
-* {
-  font-family: Roboto;
-  user-select: none;
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Thin.eot');
+    src: local('Roboto Thin'), local('Roboto-Thin'),
+        url('./fonts/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Roboto-Thin.woff') format('woff'),
+        url('./fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
 }
-.App {
-  background-color: #272b33;
-  height: auto;
+
+  *{
+    font-family: Roboto;
+    user-select: none;
+  }
+  .App{
+    background-color: #272B33;
+    height: auto;
+  }
+  .carouselsection .ant-carousel .slick-dots {
+    top: calc(36em + 90px);
+    padding-left: 50%;
+  }
+.fs16{
+  font-size: 16px!important;
 }
-.carouselsection .ant-carousel .slick-dots {
-  top: calc(36em + 90px);
-  left: -48%;
-}
-.fs16 {
-  font-size: 16px !important;
-}
-.fs12 {
+.fs12{
   font-size: 12px;
 }
-.fs20 {
+.fs20{
   font-size: 20px;
 }
-.pdtop10 {
+.pdtop10{
   padding-top: 10px;
 }
-.fs18 {
+.fs18{
   font-size: 18px;
 }
-.popular-book-button {
+.popular-book-button{
   width: 100%;
-  border: 1px solid #bfc1d22b !important;
-  border-radius: 0px 0px 10px 10px !important;
+  border: 1px solid #BFC1D22B !important;
+  border-radius: 0px 0px 10px 10px!important;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
-  height: 3em !important;
-  letter-spacing: 0.05em !important;
+  height: 3em!important;
+  letter-spacing: 0.05em!important;
 }
 .popular .ant-btn-background-ghost {
-  background: #484d5b !important;
-  color: white !important;
+  background: #484d5b!important;
+  color: white!important;
   font-size: 16px;
   line-height: 19px;
 }
 
-.popular .slick-dots-bottom {
-  display: none !important;
+.popular .slick-dots-bottom{
+  display: none!important;
 }
-.popular .arrowbuttons {
-  background-color: #484d5b !important;
-  color: white !important;
-  border: none !important;
+.popular .arrowbuttons{
+  background-color: #484d5b!important;
+  color: white!important;
+  border:none!important;
 }
-.popular .prev {
+.popular .prev{
   position: absolute;
   top: 55%;
   left: -5%;
 }
-.popular .next {
+.popular .next{
   position: absolute;
   top: 55%;
   right: -5%;
 }
-.tours-img-block {
+.tours-img-block{
   height: 550px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.tours-img {
+.tours-img{
   width: 100%;
   height: 550px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.tours-img1 {
+.tours-img1{
   width: 100%;
   height: 270px;
   object-fit: cover;
 }
-.tours-img2 {
+.tours-img2{
   width: 100%;
   height: 370px;
   object-fit: cover;
   border-top-right-radius: 10px;
 }
-.tours-img3 {
+.tours-img3{
   width: 100%;
   height: 170px;
   object-fit: cover;
   border-bottom-right-radius: 10px;
 }
-.tours-desc {
+.tours-desc{
   position: absolute;
   bottom: 0;
   width: calc(100% - 5px);
   height: 6.5em;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 18px;
   padding-top: 20px;
   padding-left: 16px;
-  background: linear-gradient(
-    180deg,
-    rgba(9, 48, 80, 0.4) 0%,
-    rgba(31, 44, 54, 0.47) 58.33%,
-    rgba(23, 36, 46, 0.24) 100%
-  );
+  background: linear-gradient(180deg, rgba(9, 48, 80, 0.4) 0%, rgba(31, 44, 54, 0.47) 58.33%, rgba(23, 36, 46, 0.24) 100%);
 }
-.tours-desc1 {
+.tours-desc1{
   position: absolute;
   top: 0;
   width: calc(100% - 5px);
   height: 4.5em;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 18px;
   padding-top: 20px;
   padding-left: 16px;
-  background: linear-gradient(
-    180deg,
-    rgba(9, 48, 80, 0.4) 0%,
-    rgba(31, 44, 54, 0.47) 58.33%,
-    rgba(23, 36, 46, 0.24) 100%
-  );
+  background: linear-gradient(180deg, rgba(9, 48, 80, 0.4) 0%, rgba(31, 44, 54, 0.47) 58.33%, rgba(23, 36, 46, 0.24) 100%);
 }
-.tour-time {
-  color: #ffffff;
+.tour-time{
+  color: #FFFFFF;
   font-size: 16px;
   position: absolute;
   right: 27px;
   top: 52px;
 }
-.tour-time1 {
-  color: #ffffff;
+.tour-time1{
+  color: #FFFFFF;
   font-size: 12px;
   position: absolute;
   right: 15px;
   top: 33px;
 }
-.tour-timer {
+.tour-timer{
   position: absolute;
   bottom: 3px;
   right: 30px;
 }
-.tour-timer1 {
+.tour-timer1{
   position: absolute;
   top: 5px;
   right: 20px;
 }
-.tour-timer1 img {
+.tour-timer1 img{
   height: 5em;
 }
-.fs32 {
+.fs32{
   font-size: 32px;
 }
-.text2 {
-  font-family: "HelveticaNeueCyr-Medium";
+.text2{
+  font-family: 'HelveticaNeueCyr-Medium';
   text-align: left;
   padding-top: 60px;
   color: white;
 }
-.text2 .title {
+.text2 .title{
   line-height: 1.2;
   margin-bottom: 1em;
 }
-.text2 .small-text {
+.text2 .small-text{
   margin-top: 1em;
-  color: #bfc1d2;
+  color: #BFC1D2;
 }
-.email-input {
-  height: 69px !important;
+.email-input{
+  height: 69px!important;
   font-size: 22px;
-  border-radius: 10px !important;
+  border-radius: 10px!important;
 }
-.email-button {
-  height: 69px !important;
-  font-size: 22px !important;
+.email-button{
+  height: 69px!important;
+  font-size: 22px!important;
   text-transform: uppercase;
-  border-radius: 10px !important;
+  border-radius: 10px!important;
   width: 100%;
 }
-.email-input::placeholder {
+.email-input::placeholder{
   font-size: 18px;
-  font-family: "HelveticaNeueCyr-Light";
-  color: #999 !important;
+  font-family: 'HelveticaNeueCyr-Light';
+  color: #999!important;
 }
-.email-checkbox {
+.email-checkbox{
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  margin-top: 1em !important;
-  color: #bfc1d2 !important;
+  margin-top: 1em!important;
+  color: #BFC1D2!important;
 }
-.footer {
+.footer{
   background: #333841;
   padding-top: 82px;
-  border-top: 1px solid #d2d2d7;
+  border-top: 1px solid #D2D2D7;
 }
-.footer-right-panel {
+.footer-right-panel{
   text-align: center;
 }
-.footer-logo {
+.footer-logo{
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  color: #ffffff;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
-.footer-right-button {
+.footer-right-button{
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
-  color: #ffffff;
+  color: #FFFFFF;
   height: 51px;
 }
-.footer-social {
+.footer-social{
   margin-right: 5px;
 }
-.footer-center-title {
+.footer-center-title{
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
-.footer-center-subtitle {
+.footer-center-subtitle{
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-top: 14px;
 }
-.footer-center-text {
+.footer-center-text{
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   margin-top: 8px;
   font-size: 14px;
-  color: #ffffff;
+  color: #FFFFFF;
   padding-right: 30px;
+  
 }
-.border-right {
-  border-right: 1px solid #d2d2d7;
+.border-right{
+  border-right: 1px solid #D2D2D7;
 }
-.footer-link-title {
-  font-family: "Roboto";
+.footer-link-title{
+  font-family: 'Roboto';
   font-size: 16px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: normal;
   line-height: 3;
 }
-.footer-link {
-  font-family: "Roboto";
+.footer-link{
+  font-family: 'Roboto';
   font-size: 16px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 300;
   line-height: 2;
 }
-.capacityplaceholder {
+.capacityplaceholder{
   font-size: 16px;
   position: absolute;
   top: 28px;
 }
-.main .willgo {
+.main .willgo{
   height: 5em;
 }
 
@@ -448,22 +439,22 @@
 }
 
 .img-hover-zoom .imgzoom {
-  transition: transform 0.5s ease;
+  transition: transform .5s ease;
 }
-.img-hover-zoom:hover .tour-overlay {
+.img-hover-zoom:hover .tour-overlay{
   display: block;
-  transition: display 0.3s ease;
+  transition: display .3s ease;
 }
 .img-hover-zoom:hover .imgzoom {
   transform: scale(1.2);
 }
-.copyright {
+.copyright{
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
 }
-.tour-overlay {
+.tour-overlay{
   position: absolute;
   top: 0;
   left: 0;
@@ -472,153 +463,150 @@
   background: linear-gradient(to right, #606c883b, #3f4c6b40);
   display: none;
 }
-.active-dot {
-  transform: scale(1.5) !important;
+.active-dot{
+  transform: scale(1.5)!important;
 }
-.work-dot.active-dot {
-  color: white !important;
+.work-dot.active-dot{
+  color: white!important;
 }
-.work-dot {
-  color: black !important;
+.work-dot{
+  color: black!important;
 }
-.work-line-p {
+.work-line-p{
   position: relative;
   padding-left: 24.5%;
 }
-.work-line-img {
+.work-line-img{
   position: absolute;
   left: 24.5%;
   top: 10px;
   width: 100%;
 }
-.work-line {
-  width: 100%;
-  position: absolute;
-  top: -3px;
-  display: flex;
+.work-line{
+  width: 100%; 
+  position: absolute; 
+  top: -3px; 
+  display: flex; 
   justify-content: space-between;
 }
-.hotels .navbar {
+.hotels .navbar{
   padding-left: 5vw;
   padding-right: 5vw;
   padding-bottom: 1vw;
 }
-.hotels .sub-navbar {
-  background: #3d4047;
+.hotels .sub-navbar{
+  background: #3D4047;
   padding-left: 8vw;
   padding-right: 8vw;
+  padding-bottom: 1.5vw;
 }
-.sub-navbar .bgwhite {
-  margin-top: 0;
-}
-.filter-card {
+.filter-card{
   background-color: #454953;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   padding-left: 2vw;
   padding-top: 1vw;
   padding-right: 1vw;
-  padding-bottom: 1vw;
 }
-.hotels-filter {
+.hotels-filter{
   padding-top: 1vw;
 }
-.filter-subcard {
+.filter-subcard{
   border-radius: 10px;
   padding: 1vw;
-  background-color: #535a64;
+  background-color: #535A64;
 }
-.filter-subcard-title {
-  color: #ccd0d9;
+.filter-subcard-title{
+  color: #CCD0D9;
   display: inline;
   font-size: 16px;
 }
-.padding-top-10px {
+.padding-top-10px{
   padding-top: 10px;
 }
-.filter-card .ant-select-selection--single {
-  height: 36px !important;
+.filter-card .ant-select-selection--single{
+  height: 36px!important;
   border-radius: 10px;
-  border: 1px solid #bfc1d2 !important;
-  background-color: #535a64;
-  color: #bfc1d2;
+  border: 1px solid #BFC1D2!important;
+  background-color: #535A64;
+  color: #BFC1D2;
 }
-.filter-card .ant-select-arrow i {
-  color: #bfc1d2;
+.filter-card .ant-select-arrow i{
+  color: #BFC1D2;;
 }
-.filter-card .ant-select {
-  width: 100% !important;
+.filter-card .ant-select{
+  width: 100%!important;
 }
-.filter-card .ant-select-selection-selected-value {
-  font-size: 14px !important;
+.filter-card .ant-select-selection-selected-value{
+  font-size: 14px!important;
 }
-.mrtop1em {
+.mrtop1em{
   margin-top: 1em;
 }
-.filter-card .ant-input {
+.filter-card .ant-input{
   border-radius: 10px;
   height: 36px;
-  border: 1px solid #bfc1d2 !important;
-  background-color: #535a64;
-  color: #bfc1d2;
+  border: 1px solid #BFC1D2!important;
+  background-color: #535A64;
+  color: #BFC1D2;
 }
-.filter-card .ant-input::placeholder {
-  color: #bfc1d2;
-  font-size: 14px !important;
+.filter-card .ant-input::placeholder{
+  color: #BFC1D2;
+  font-size: 14px!important;
 }
-.ant-input-prefix i {
-  color: #bfc1d2 !important;
+.ant-input-prefix i{
+  color: #BFC1D2!important;
 }
-.filter-card .ant-input-group.ant-input-group-compact > :first-child {
+.filter-card .ant-input-group.ant-input-group-compact > :first-child{
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.filter-card .ant-input-group.ant-input-group-compact > :last-child {
+.filter-card .ant-input-group.ant-input-group-compact > :last-child{
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-.filter-card .ant-slider-track {
-  background-color: #00bcd4;
+.filter-card .ant-slider-track{
+  background-color: #00BCD4;
 }
-.filter-card .ant-slider-handle {
+.filter-card .ant-slider-handle{
   background-color: #00bcd4;
   width: 20px;
   height: 20px;
   margin-top: -7px;
 }
-.filter-card .ant-slider {
+.filter-card .ant-slider{
   margin: 18px 6px 10px;
 }
 .filter-card .ant-checkbox .ant-checkbox-inner {
-  background-color: transparent !important;
-  border-color: #808080 !important;
+  background-color: transparent!important;
+  border-color: #808080!important;
   border-width: 2px;
 }
-.filter-card .ant-checkbox-wrapper:hover .ant-checkbox-inner {
-  border-color: #808080 !important;
+.filter-card .ant-checkbox-wrapper:hover .ant-checkbox-inner{
+  border-color: #808080!important;
 }
-.filter-card .ant-checkbox-wrapper:hover .ant-checkbox-inner {
-  border-color: #808080 !important;
+.filter-card .ant-checkbox-wrapper:hover .ant-checkbox-inner{
+  border-color: #808080!important;
 }
-.anticon-star {
-  color: #fdc602 !important;
+.anticon-star{
+  color: #FDC602!important;
   font-size: 18px;
   margin-left: 3px;
 }
-.filter-card .ant-checkbox-wrapper {
+.filter-card .ant-checkbox-wrapper{
   margin-top: 10px;
 }
-.filter-card .checkbox-text {
+.filter-card .checkbox-text{
   margin-left: 3px;
-  color: #bfc1d2;
+  color: #BFC1D2;
   font-size: 14px;
 }
-.checkbox-text i {
-  color: #00bcd4;
+.checkbox-text i{
+  color: #00BCD4;
   font-size: 16px;
 }
-.right-card {
+.right-card{
   background-color: #454953;
   border-radius: 10px;
   padding-left: 2vw;
@@ -626,61 +614,59 @@
   padding-right: 1vw;
   padding-bottom: 1vw;
 }
-.hotels-right-sidebar {
+.hotels-right-sidebar{
   padding-right: 1vw;
-  padding-top: 1vw;
+  padding-top: 2vw;
 }
 .rc-progress-circle {
   transform: rotate(120deg);
 }
-.per-circle {
+.per-circle{
   position: relative;
 }
-.percentage {
+.percentage{
   position: absolute;
   color: white;
-  font-size: 46px;
+  font-size: 56px;
   left: 12px;
-  top: 20px;
+  top: 30px;
 }
-.percentage-text {
+.percentage-text{
   color: white;
   font-size: 18px;
 }
-.percentage-text-p {
+.percentage-text-p{
   padding-top: 16px;
   padding-left: 0.2vw;
 }
-.percentage-text-sub {
+.percentage-text-sub{
   font-size: 12px;
-  color: #bfc1d2;
+  color: #BFC1D2;
   margin-top: 0.3vw;
 }
-.right-hotel-card-img {
+.right-hotel-card-img{
   width: 100%;
   border-radius: 10px;
-  height: 10em;
-  object-fit: cover;
 }
-.right-hotel-card-title {
+.right-hotel-card-title{
   text-decoration: underline;
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 16px;
 }
-.right-hotel-card-text {
+.right-hotel-card-text{
   margin-top: 1em;
-  color: #bfc1d2 !important;
+  color: #BFC1D2!important;
   font-size: 12px;
 }
-.promo-circle {
-  background: #fdc602;
-  border: 2px solid #fdc602;
+.promo-circle{
+  background: #FDC602;
+  border: 2px solid #FDC602;
   border-radius: 50%;
-  height: 6.5em !important;
-  width: 6.5em !important;
+  height: 6.5em!important;
+  width: 6.5em!important;
   padding-top: 2.5em;
   padding-left: 0.4em;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 12px;
   position: absolute;
@@ -688,119 +674,122 @@
   right: 10px;
   transform: rotate(-45deg);
 }
-.prelative {
+.prelative{
   position: relative;
 }
-.filter-card-map {
+.filter-card-map{
   width: 100%;
   height: 7.4em;
   border-radius: 10px;
   object-fit: cover;
 }
-.hotels-top-dropdowns {
-  font-size: 14px!important;
-  color: #ffffff !important;
-  border-radius: 10px !important;
-  border: none !important;
-  height: 3em !important;
-  background-color: #414249 !important;
+.hotels-top-dropdowns{
+  font-size: 22px;
+  color: #FFFFFF!important;
+  border-radius: 10px!important;
+  border: none!important;
+  height: 3em!important;
+  background-color: #414249!important;
 }
-.hotels-top-dropdowns svg {
+.hotels-top-dropdowns svg{
   font-size: 24px;
-  color: #00bcd4;
+  color: #00BCD4;
   margin-right: 6px;
   transform: translateY(5px);
 }
-.top-bar {
+.top-bar{
   padding-top: 1vw;
   padding-left: 1vw;
 }
-.hotels-top-dropdowns-text {
+.hotels-top-dropdowns-text{
   transform: translateY(-3px);
 }
-.marginleft {
-  margin-left: 1vw !important;
+.marginleft{
+  margin-left: 1vw!important;
 }
-.search-key {
+.search-key{
   height: 42px;
   top: -5px;
-  width: 8vw !important;
+  width: 8vw!important;
 }
-.search-key i {
-  color: #00bcd4 !important;
+.search-key i{
+  color: #00bcd4!important;
   font-size: 24px;
 }
 .search-key input:focus {
-  width: 33.2vw !important;
-  background-color: #242121 !important;
-  border: 1px solid #242121 !important;
+  width: 20vw!important;
+  background-color: #242121!important;
+  border: 1px solid #242121!important;
 }
-.search-key input::placeholder {
+.search-key input::placeholder{
   text-decoration: underline;
 }
-.search-key input {
+.search-key input{
   background-color: #414249 !important;
   border: 1px solid #414249 !important;
-  border-radius: 10px !important;
+  border-radius: 10px!important;
   color: white;
   padding-left: 40px;
 }
-.border-top-left0 {
-  border-radius: 0px 10px 10px 10px !important;
-  padding: 1vw !important;
+.border-top-left0{
+  border-radius: 0px 10px 10px 10px!important;
+  padding: 1vw!important;
 }
-.top-bar-item .ant-slider-handle {
-  background-color: #00bcd4;
+.top-bar-item .ant-slider-handle{
+  background-color:#00bcd4;
   width: 20px;
   height: 20px;
   margin-top: -7px;
 }
-.top-bar-item p {
+.top-bar-item p{
   font-weight: 500;
 }
-.padding-top-5px {
-  padding-top: 5px !important;
+.padding-top-5px{
+  padding-top: 5px!important;
 }
-.top-bar .ant-input-affix-wrapper .ant-input:not(:first-child) {
+.top-bar .ant-input-affix-wrapper .ant-input:not(:first-child){
   padding-left: 40px;
 }
-.width20vw {
+.width20vw{
   width: 20vw;
 }
-.filter-card .city_name {
-  color: #ccd0d9;
+.filter-card .city_name{
+  color: #CCD0D9;
   font-size: 16px;
 }
-.open-map {
-  position: absolute !important;
-  top: 2.5em !important;
-  left: 10% !important;
+.open-map{
+  position: absolute!important;
+  top: 2.5em!important;
+  left: 15%!important;
   font-size: 14px;
-  background: rgba(64, 72, 99, 0.5) !important;
-  border-radius: 10px !important;
-  border: none !important;
-  padding: 10px 50px 10px 50px !important;
-  height: 3em !important;
+  background: rgba(64, 72, 99, 0.5)!important;
+  border-radius: 10px!important;
+  border: none!important;
+  padding: 10px 50px 10px 50px!important;
+  height: 3em!important;
 }
-.hotel-card-slider {
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
+.hotel-card-slider{
+  border-top-left-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
 }
-.hotel-card-slider img {
+.hotel-card-slider img{
   width: 100%;
-  height: 16em;
+  height: 20em;
   object-fit: cover;
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
+  border-top-left-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
 }
-.hotel-card-list {
-  padding-top: 1vw;
+.hotel-card-list{
+  padding-top: 2vw;
   padding-left: 1vw;
 }
-.hotel-card-list .slick-dots-bottom {
-  display: none !important;
+.hotel-card-list .slick-dots-bottom{
+  display: none!important;
 }
-.hotel-card-list .controls {
+.hotel-card-list{
+  height: 20em;
+}
+.hotel-card-list .controls{
   text-align: center;
   color: white;
   font-size: 16px;
@@ -808,155 +797,34 @@
   bottom: 8px;
   width: 100%;
 }
-.hotel-card-list .controls span {
+.hotel-card-list .controls span{
   text-align: center;
   color: white;
   font-size: 14px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.hotel-card-list .controls i {
+.hotel-card-list .controls i{
   transform: translateY(1px);
 }
-.overlaygradient {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 59%,
-    rgba(0, 0, 0, 0.65) 100%
-  );
+.overlaygradient{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%);
   height: 150px;
   position: absolute;
   width: 100%;
   bottom: 0em;
   border-bottom-left-radius: 10px;
 }
-.hotel-card-list .slick-list {
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
+.hotel-card-list .slick-list{
+  border-top-left-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
 }
-.hotel-card-list .ant-carousel {
-  border-top-left-radius: 10px !important;
-  border-bottom-left-radius: 10px !important;
+.hotel-card-list .ant-carousel{
+  border-top-left-radius: 10px!important;
+  border-bottom-left-radius: 10px!important;
 }
-.hotel-card-gray-top {
-  background: #4a515b;
+.hotel-card-gray{
+  background: #7F8998;
   width: 100%;
-  border-top-right-radius: 10px !important;
-  padding-top: 0.7vw;
-  padding-right: 0.7vw;
-  padding-left: 1vw;
-  padding-bottom: 0.7vw;
-  color: #FFFFFF;
-  height: 5em;
-}
-.hotel-card-gray-bottom {
-  background: #4a515b;
-  width: 100%;
-  border-bottom-right-radius: 10px !important;
-  padding-bottom: 0.7vw;
-  padding-top: 0.7vw;
-  padding-right: 0.7vw;
-  padding-left: 1vw;
-  color: #FFFFFF;
-  text-align: right;
-  height: 4.5em;
-}
-.hotel-card-place{
-  color: #E7E7EC;
-  font-weight: 300;
-  font-size: 12px;
-  margin-left: 3vw;
-}
-.hotel-card-hotelname{
-  margin-bottom: 0.5em;
-}
-.hotel-card-review-rect{
-  position: absolute;
-  right: 10px;
-  top: -8px;
-  background: #00BCD4;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 13px 10px;
-}
-.rating-card{
-  position: absolute;
-  right: 58px;
-  top: 5px;
-  text-align: right;
-  color: #E7E7EC;
-  font-weight: normal;
-}
-.rating-card .rating-top{
-  font-size: 13px;
-}
-.rating-card .rating-bottom{
-  font-size: 12px;
-}
-.hotel-card-gray-center{
-  background: #62656b;
-  height: 6.5em;
-  padding: 1.2vw 1vw;
-}
-.select-room-button{
-  background-color: transparent!important;
-  padding-right: 3vw !important;
-  padding-left: 3vw !important;
-  height: 2.5em!important;
-  font-size: 16px!important;
-  border: 1px solid #BFC1D2!important;
-  border-radius: 10px!important;
-}
-.select-room-button:hover{
-  background-color: #00bcd4!important;
-  border: 1px solid #00bcd4!important;
-}
-.standart-room{
-  font-weight: 300;
-  font-size: 14px;
-  color: #fff;
-  margin-bottom: 0.2em;
-  margin-top: 0.5em;
-}
-.hotel-facilities img{
-  margin-right: 7px;
-}
-.hotel-price{
-  font-weight: 500;
-  font-size: 15px;
-  color: #FFFFFF;
-  margin-bottom: 0.2em;
-  margin-top: 0.5em;
-}
-.capacity{
-  color: #FFFFFF;
-  font-weight: 300;
-  font-size: 12px;
-}
-.hotel-facilities1{
-  margin-bottom: 0.3em;
-  color: #FFFFFF;
-  font-weight: 300;
-font-size: 12px;
-}
-.like-heart{
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  color:white!important;
-}
-.card-list-map .ant-modal-footer{
-  display: none;
-}
-.card-list-map{
-  width: 70vw!important;
-}
-.DayPickerInput-Overlay .DayPicker-Day{
-  font-size: 14px!important;
-}
-.DayPickerInput-Overlay{
-  z-index: 9999;
-  width: 495px!important;
+  opacity: 0.4;
 }
