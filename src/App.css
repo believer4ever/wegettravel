@@ -698,7 +698,7 @@
   object-fit: cover;
 }
 .hotels-top-dropdowns {
-  font-size: 14px;
+  font-size: 14px!important;
   color: #ffffff !important;
   border-radius: 10px !important;
   border: none !important;
@@ -731,7 +731,7 @@
   font-size: 24px;
 }
 .search-key input:focus {
-  width: 20vw !important;
+  width: 33.2vw !important;
   background-color: #242121 !important;
   border: 1px solid #242121 !important;
 }
@@ -946,4 +946,17 @@ font-size: 12px;
   right: 10px;
   font-size: 20px;
   color:white!important;
+}
+.card-list-map .ant-modal-footer{
+  display: none;
+}
+.card-list-map{
+  width: 70vw!important;
+}
+.DayPickerInput-Overlay .DayPicker-Day{
+  font-size: 14px!important;
+}
+.DayPickerInput-Overlay{
+  z-index: 9999;
+  width: 495px!important;
 }

@@ -35,7 +35,7 @@ class HotelHeader extends Component {
       </Menu>
     );
     return (
-      <div className="bg">
+      <div className="bg hotel-screen">
         <div className="gradient">
           <div className="gradient">
             <Row className="navbar">
@@ -77,7 +77,7 @@ class HotelHeader extends Component {
             </Row>
             <Affix offsetTop="0">
               <Row className="sub-navbar">
-                <SearchForm />
+                <SearchForm left="90px" />
               </Row>
             </Affix>
           </div>

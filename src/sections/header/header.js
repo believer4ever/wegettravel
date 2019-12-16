@@ -30,12 +30,12 @@ class Header extends Component {
             <a href="http://join.hotelier.uz">Зарегистрировать свой объект</a>
           </Menu.Item>
           <Menu.Item key="1">
-            <a href="http://www.taobao.com/">Войти</a>
+            <a href="/hotel">Войти</a>
           </Menu.Item>
         </Menu>
       );
       return (
-        <div className="bg">
+        <div className="bg main-screen">
             <div>
             <div className="gradient">
             <Row className="navbar">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Input, Menu, Icon, Dropdown, Button, Carousel } from 'antd';
 import './popular.css';
-import Card from './card'
+import Card from './card';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 class Popular extends Component {
     constructor(props) {
@@ -17,8 +17,7 @@ class Popular extends Component {
         this.carousel.prev();
       }
     render() {
-      return (
-        <Router>
+      return ( 
         <Row style={{ marginTop: '5em', position: 'relative' }} className="popular">
             <Col xl={{ offset: 3, span: 18 }}>
             <div className="text1">
@@ -193,7 +192,6 @@ class Popular extends Component {
             </Carousel>
             </Col>
         </Row>
-        </Router>
       );
     }
 }

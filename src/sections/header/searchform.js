@@ -236,7 +236,7 @@ class SearchForm extends Component {
                     className="certain-category-search"
                     dropdownClassName="certain-category-search-dropdown"
                     dropdownMatchSelectWidth={false}
-                    dropdownStyle={{ width: '300px' }}
+                    dropdownStyle={{ width: '300px', marginLeft: this.props.left }}
                     size="large"
                     onFocus={this.onFocus}
                     onSelect={this.onSelect}

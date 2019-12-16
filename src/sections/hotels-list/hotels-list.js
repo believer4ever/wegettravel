@@ -155,7 +155,11 @@ class HotelsList extends Component {
       visible1: false,
       visible2: false,
       visible3: false,
+      loading: true,
     };
+  }
+  componentDidMount() {
+    demoAsyncCall().then(() => this.setState({ loading: false }));
   }
   handleVisibleChange = flag => {
     this.setState({ visible: flag });
@@ -245,16 +249,16 @@ class HotelsList extends Component {
               />
             </Col>
             <Col xl={{ span: 18 }}>
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
-              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList loading={this.state.loading} img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
             </Col>
             <Col xl={{ span: 6 }} className="hotels-right-sidebar">
               <div className="right-card">
@@ -300,3 +304,6 @@ class HotelsList extends Component {
   }
 }
 export default HotelsList;
+function demoAsyncCall() {
+        return new Promise((resolve) => setTimeout(() => resolve(), 2000));
+      }
