@@ -779,5 +779,7 @@
 
   }
   @media screen and (max-width: 300px) {
-
+      .ant-lg {
+          width: 100%;
+      }
   }
