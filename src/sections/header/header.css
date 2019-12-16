@@ -162,7 +162,7 @@
     transition: top .3s;
 }
 .ant-select-focused .ant-select-show-search{
-    top: 50%!important;
+    top: 26%!important;
     transition: top .3s;
 }
 .InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
@@ -280,4 +280,8 @@
 }
 .light .ant-btn-link{
     color: black!important;
+}
+.lang-img{
+    height: 18px;
+    width: 18px;
 }

@@ -31,10 +31,7 @@ class CarouselSection extends Component {
                         text3="• Великолепная гастрономия" />
               </Col>
             </Row> */}
-            <Carousel className="mobile-none" speed="1500">
-                <div>
                   <Row>
-                    {/* <Fade left> */}
                       <Col lg={{ span: 12 }}>
                         <Card img={require('../header/img/carousel1.jpg')} 
                         active="0"
@@ -58,9 +55,16 @@ class CarouselSection extends Component {
                         text2="• Изысканные помещения"
                         text3="• Великолепная гастрономия" />
                       </Col>
-                    {/* </Fade> */}
-                    {/* <Fade right> */}
                       <Col lg={{ span: 12 }}>
+                      <Carousel className="mobile-none" speed="500" effect="fade">
+                      <div className="carousel-card-poster">
+                          <img className="img1" src={require('../header/img/samarkand.jpg')} />
+                          <span className="carousel-card-city">Самарканд</span>
+                          <div className="carousel-card-bg">
+                            <p className="fs20">Цена за ночь:</p>
+                            <p className="fs16 pdtop10">от 60 тыс. <span className="carousel-card-separator">|</span> до 7 млн.</p>
+                          </div>
+                        </div>
                         <div className="carousel-card-poster">
                           <img className="img1" src={require('../header/img/samarkand.jpg')} />
                           <span className="carousel-card-city">Самарканд</span>
@@ -69,122 +73,9 @@ class CarouselSection extends Component {
                             <p className="fs16 pdtop10">от 60 тыс. <span className="carousel-card-separator">|</span> до 7 млн.</p>
                           </div>
                         </div>
+                      </Carousel>
                       </Col>
-                    {/* </Fade> */}
-                  </Row>
-                </div>
-                <div>
-                <Row>
-                      <Col xl={{ span: 12 }}>
-                        <Card img={require('../header/img/carousel1.jpg')} 
-                        active="0"
-                        title="Отель"
-                        count="62 варианта"
-                        text1="• Стратегическое месторасположение"
-                        text2="• Изысканные помещения"
-                        text3="• Великолепная гастрономия" />
-                        <Card img={require('../header/img/carousel2.jpg')} 
-                        active="0"
-                        title="Отель"
-                        count="62 варианта"
-                        text1="• Стратегическое месторасположение"
-                        text2="• Изысканные помещения"
-                        text3="• Великолепная гастрономия" />
-                        <Card img={require('../header/img/carousel3.jpg')} 
-                        active="0"
-                        title="Отель"
-                        count="62 варианта"
-                        text1="• Стратегическое месторасположение"
-                        text2="• Изысканные помещения"
-                        text3="• Великолепная гастрономия" />
-                      </Col>
-                    <Col xl={{ span: 12 }}>
-                      <div className="carousel-card-poster">
-                        <img className="img1" src={require('../header/img/samarkand.jpg')} />
-                        <span className="carousel-card-city">Самарканд</span>
-                        <div className="carousel-card-bg">
-                          <p className="fs20">Цена за ночь:</p>
-                          <p className="fs16 pdtop10">от 60 тыс. <span className="carousel-card-separator">|</span> до 7 млн.</p>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-                <div>
-                <Row>
-                      <Col xl={{ span: 12 }}>
-                        <Card img={require('../header/img/carousel1.jpg')} 
-                        active="0"
-                        title="Отель"
-                        count="62 варианта"
-                        text1="• Стратегическое месторасположение"
-                        text2="• Изысканные помещения"
-                        text3="• Великолепная гастрономия" />
-                        <Card img={require('../header/img/carousel2.jpg')} 
-                        active="0"
-                        title="Отель"
-                        count="62 варианта"
-                        text1="• Стратегическое месторасположение"
-                        text2="• Изысканные помещения"
-                        text3="• Великолепная гастрономия" />
-                        <Card img={require('../header/img/carousel3.jpg')} 
-                        active="0"
-                        title="Отель"
-                        count="62 варианта"
-                        text1="• Стратегическое месторасположение"
-                        text2="• Изысканные помещения"
-                        text3="• Великолепная гастрономия" />
-                      </Col>
-                    <Col xl={{ span: 12 }}>
-                      <div className="carousel-card-poster">
-                        <img className="img1" src={require('../header/img/samarkand.jpg')} />
-                        <span className="carousel-card-city">Самарканд</span>
-                        <div className="carousel-card-bg">
-                          <p className="fs20">Цена за ночь:</p>
-                          <p className="fs16 pdtop10">от 60 тыс. <span className="carousel-card-separator">|</span> до 7 млн.</p>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-                <div>
-                <Row>
-                    <Col xl={{ span: 12 }}>
-                      <Card img={require('../header/img/bg.jpg')} 
-                      active="0"
-                      title="Отель"
-                      count="62 варианта"
-                      text1="• Стратегическое месторасположение"
-                      text2="• Изысканные помещения"
-                      text3="• Великолепная гастрономия" />
-                      <Card img={require('../header/img/bg.jpg')} 
-                      active="0"
-                      title="Отель"
-                      count="62 варианта"
-                      text1="• Стратегическое месторасположение"
-                      text2="• Изысканные помещения"
-                      text3="• Великолепная гастрономия" />
-                      <Card img={require('../header/img/bg.jpg')} 
-                      active="0"
-                      title="Отель"
-                      count="62 варианта"
-                      text1="• Стратегическое месторасположение"
-                      text2="• Изысканные помещения"
-                      text3="• Великолепная гастрономия" />
-                    </Col>
-                    <Col xl={{ span: 12 }}>
-                      <div className="carousel-card-poster">
-                        <img className="img1" src={require('../header/img/samarkand.jpg')} />
-                        <span className="carousel-card-city">Самарканд</span>
-                        <div className="carousel-card-bg">
-                          <p className="fs20">Цена за ночь:</p>
-                          <p className="fs16 pdtop10">от 60 тыс. <span className="carousel-card-separator">|</span> до 7 млн.</p>
-                        </div>
-                      </div>
-                    </Col>
-                  </Row>
-                </div>
-            </Carousel>
+                  </Row>  
             </Col>
         </Row>
       );

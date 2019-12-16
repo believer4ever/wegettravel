@@ -295,7 +295,7 @@
     }
     .carousel-card-city {
         font-size: 25px;
-        top: 10px;
+        top: 25px;
     }
     .fs20 {
         font-size: 18px;
@@ -431,13 +431,17 @@
         top: 20px;
     }
     .ant-select-selection__placeholder{
-        top: 60%;
+        top: 26%;
     }
     .lineheight2{
         line-height: 1.5;
     }
-    .bgwhite{
-        width: 89%!important;
+    .lang-img{
+        height: 18px;
+        width: 18px;
+    }
+    .bgwhite {
+        width: 84% !important;
     }
     .popular_hotel_name{
         line-height: 1.15;

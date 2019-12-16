@@ -37,7 +37,7 @@ class Header extends Component {
       return (
         <div className="bg">
             <div className="gradient">
-            <div className="gradient">
+            <div>
             <Row className="navbar">
                 <Col xs={2} sm={4} md={6} lg={8} xl={10} className="brand">
                   <img src={require('./img/WeGetTravel.png')} className="logo" /> 
@@ -46,7 +46,7 @@ class Header extends Component {
                 lg={{ span: 8, offset: 8 }} xl={{ span: 6, offset: 8 }} className="dropdowns text-align-right">
                   <Dropdown overlay={lang} trigger={['click']}>
                     <a className="ant-dropdown-link navbar-link" href="#">
-                       RU <Icon type="down" />
+                      <img src={require('../header/img/russia.png')} className="lang-img" /> RU <Icon type="down" />
                     </a>
                   </Dropdown>
                   <Dropdown overlay={currency} trigger={['click']}>
