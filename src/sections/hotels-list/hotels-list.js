@@ -9,7 +9,8 @@ import {
   Icon,
   Checkbox,
   Dropdown,
-  Carousel
+  Carousel,
+  
 } from "antd";
 import Filter from "./filter";
 import { Line, Circle } from "rc-progress";
@@ -182,7 +183,7 @@ class HotelsList extends Component {
                 placement="bottomLeft"
                 onVisibleChange={this.handleVisibleChange}
                 visible={this.state.visible}
-                trigger={["click"]}
+                // trigger={["click"]}
               >
                 <Button className="hotels-top-dropdowns">
                   {" "}
@@ -198,7 +199,7 @@ class HotelsList extends Component {
                 placement="bottomLeft"
                 onVisibleChange={this.handleVisibleChange1}
                 visible={this.state.visible1}
-                trigger={["click"]}
+                // trigger={["click"]}
               >
                 <Button className="hotels-top-dropdowns">
                   {" "}
@@ -212,7 +213,7 @@ class HotelsList extends Component {
                 placement="bottomLeft"
                 onVisibleChange={this.handleVisibleChange2}
                 visible={this.state.visible2}
-                trigger={["click"]}
+                // trigger={["click"]}
               >
                 <Button className="hotels-top-dropdowns">
                   {" "}
@@ -225,7 +226,7 @@ class HotelsList extends Component {
                 className="marginleft"
                 pplacement="bottomLeft"
                 onVisibleChange={this.handleVisibleChange3}
-                trigger={["click"]}
+                // trigger={["click"]}
               >
                 <Button className="hotels-top-dropdowns">
                   {" "}
@@ -244,6 +245,15 @@ class HotelsList extends Component {
               />
             </Col>
             <Col xl={{ span: 18 }}>
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
+              <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
               <HotelCardList img={['https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67829listing-29.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67825listing-25.jpg', 'https://listing-themes.com/selio-wp/wp-content/uploads/sw_win/files/strict_cache/851x67824listing-24.jpg']} />
             </Col>
             <Col xl={{ span: 6 }} className="hotels-right-sidebar">

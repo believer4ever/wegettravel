@@ -16,7 +16,7 @@ class Work extends Component {
                     <p className="fs36" style={{ lineHeight: 0 }}>Как работает WeGet?</p>
                     <p className="fs24 gray">4 простых шага</p>
                     <Row>
-                      <Col xs={{ offset: 12, span: 2 }} xs={{ offset: 6, span: 8 }}>
+                      <Col xs={{ offset: 6, span: 8 }}>
                       <div className="work-line-p">
                         <img src={require('../header/img/line.svg')} className="work-line-img" />
                         <div className="work-line">
@@ -28,7 +28,6 @@ class Work extends Component {
                       </div>
                       </Col>
                     </Row>
-                    
                     <Row style={{ marginTop: '7em' }}>
                       <Col xs={{ offset: 2, span: 10 }}>
                         <img src={require('../header/img/illustration.png')} style={{ width: '90%' }} />

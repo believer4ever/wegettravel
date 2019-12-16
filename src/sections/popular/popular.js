@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Input, Menu, Icon, Dropdown, Button, Carousel } from 'antd';
 import './popular.css';
 import Card from './card'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 class Popular extends Component {
     constructor(props) {
         super(props);
@@ -17,10 +18,11 @@ class Popular extends Component {
       }
     render() {
       return (
+        <Router>
         <Row style={{ marginTop: '5em', position: 'relative' }} className="popular">
             <Col xl={{ offset: 3, span: 18 }}>
             <div className="text1">
-                <p className="fs36" style={{ lineHeight: 1, marginBottom: 0.5 }}>Популярные отели Узбекистана</p>
+                <p className="fs36">Популярные отели Узбекистана</p>
                 <p className="fs24 gray">Топовые отели Узбекистана, отобранные по отзывам их гостей</p>
             </div>
             <Button shape="circle" className="arrowbuttons prev" onClick={this.previous} icon="left" size="large" />
@@ -28,7 +30,18 @@ class Popular extends Component {
             <Carousel ref={node => (this.carousel = node)} speed="1500">
             <div>
                 <Row>
-                    <Col xl={{ span: 6 }} md={{ span: 12 }} sm={{ span: 12 }}  className="popular-padding">
+                    <Col xl={{ span: 6 }} className="popular-padding">
+                    <Link to="/hotel">
+                        <Card active="1" star="5" price="450,000+" 
+                            currency="UZS" 
+                            img={require('../header/img/popular.jpg')}
+                            address="Ташкент, Мирзо-Улугбекский район"
+                            rating="8/10"
+                            reviews="204"
+                            name="International Hotel Tashkent"  />
+                    </Link>
+                    </Col>
+                    <Col xl={{ span: 6 }} className="popular-padding">
                         <Card active="1" star="5" price="450,000+" 
                         currency="UZS" 
                         img={require('../header/img/popular.jpg')}
@@ -37,7 +50,7 @@ class Popular extends Component {
                         reviews="204"
                         name="International Hotel Tashkent"  />
                     </Col>
-                    <Col xl={{ span: 6 }} md={{ span: 12 }} sm={{ span: 12 }} className="popular-padding">
+                    <Col xl={{ span: 6 }} className="popular-padding">
                         <Card active="1" star="5" price="450,000+" 
                         currency="UZS" 
                         img={require('../header/img/popular.jpg')}
@@ -46,16 +59,7 @@ class Popular extends Component {
                         reviews="204"
                         name="International Hotel Tashkent"  />
                     </Col>
-                    <Col xl={{ span: 6 }} md={{ span: 12 }} sm={{ span: 12 }} className="popular-padding">
-                        <Card active="1" star="5" price="450,000+" 
-                        currency="UZS" 
-                        img={require('../header/img/popular.jpg')}
-                        address="Ташкент, Мирзо-Улугбекский район"
-                        rating="8/10"
-                        reviews="204"
-                        name="International Hotel Tashkent"  />
-                    </Col>
-                    <Col xl={{ span: 6 }} md={{ span: 12 }} sm={{ span: 12 }} className="popular-padding">
+                    <Col xl={{ span: 6 }} className="popular-padding">
                         <Card active="1" star="5" price="450,000+" 
                         currency="UZS" 
                         img={require('../header/img/popular.jpg')}
@@ -189,6 +193,7 @@ class Popular extends Component {
             </Carousel>
             </Col>
         </Row>
+        </Router>
       );
     }
 }

@@ -16,7 +16,7 @@ class Card extends React.Component{
       };
       render() {
         return (
-            <Row className="popular-card" style={{ marginTop: '22px', height: 'auto' }}>
+            <Row className="popular-card" style={{ marginTop: '22px', height: '500px' }}>
                 <Row>
                     <Col>
                         <img className="popular_img" src={this.props.img} />

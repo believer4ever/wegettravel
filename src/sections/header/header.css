@@ -11,6 +11,10 @@
 }
 .logo{
     height: 40px;
+    cursor: pointer;
+}
+.ant-select-selection__placeholder{
+    top: 55%!important;
 }
 .main .gradient{
     background: radial-gradient(42.65% 42.65% at 50% 51.91%, rgba(196, 196, 196, 0) 33.33%, rgba(80, 128, 207, 0.169159) 62.5%, rgba(17, 37, 141, 0.2387) 100%);
@@ -112,6 +116,7 @@
 .ant-select-dropdown{
     border-radius: 10px!important;
     margin-top: -5px!important;
+    left: 112px !important;
 }
 .ant-select-dropdown-menu-item:first-child{
     border-top-left-radius: 10px!important;

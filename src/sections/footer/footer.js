@@ -8,19 +8,19 @@ class Footer extends Component {
     render() {
       return (
         <Row style={{  position: 'relative', paddingBottom: '3em' }} className="footer">
-            <Col xl={{ offset: 3, span: 18 }}>
+            <Col className="footer-block-main" xl={{ offset: 3, span: 21 }}>
                 <Row>
-                    <Col xl={{ span: 7 }}>
+                    <Col xl={{ span: 6 }}>
                         <div className="footer-right-panel">
                             <span className="footer-logo">Weget</span><br /><br />
-                            <Button ghost className="footer-right-button">Зарегистрировать свой объект</Button>
+                            <Button ghost className="footer-right-button" onClick={() => window.location.href="http://join.hotelier.uz"}>Зарегистрировать свой объект</Button>
                             <br /><br />
                             <img className="footer-social" src={require('../header/img/fb.svg')} />
                             <img className="footer-social" src={require('../header/img/inst.svg')} />
                             <img className="footer-social" src={require('../header/img/youtube.svg')} />
                         </div>
                     </Col>
-                    <Col xl={{ span: 10 }}>
+                    <Col xl={{ span: 9 }}>
                         <div className="footer-center-title">О проекте</div>
                         <div className="footer-center-subtitle">Почему нужно выбрать нас?</div>
                         <div className="footer-center-text">
@@ -30,7 +30,7 @@ class Footer extends Component {
                             выбираете актуальнейшую информацию в гостиничной сфере Узбекистана.
                         </div>
                     </Col>
-                    <Col xl={{ span: 7 }}>
+                    <Col xl={{ span: 9 }}>
                         <Row>
                             <Col xl={{span:8}} className="border-right">
                                 <a className="footer-link-title">Жилье</a><br />
@@ -40,7 +40,7 @@ class Footer extends Component {
                                 <a className="footer-link">Отели</a><br />
                                 <a className="footer-link">Ориентиры</a>
                             </Col>
-                            <Col xl={{span:12}} style={{ paddingLeft: '20px' }}>
+                            <Col className="footer-link-block" xl={{span:12}} style={{ paddingLeft: '20px' }}>
                                 <a className="footer-link-title">Компания</a><br />
                                 <a className="footer-link">О нас</a><br />
                                 <a className="footer-link">Служба поддержки</a><br />
