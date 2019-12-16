@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/wegettravel/static/css/main.ba7d5857.chunk.css",
-    "main.js": "/wegettravel/static/js/main.d4e9913a.chunk.js",
-    "main.js.map": "/wegettravel/static/js/main.d4e9913a.chunk.js.map",
+    "main.css": "/wegettravel/static/css/main.9f22aed4.chunk.css",
+    "main.js": "/wegettravel/static/js/main.6a30ac93.chunk.js",
+    "main.js.map": "/wegettravel/static/js/main.6a30ac93.chunk.js.map",
     "runtime-main.js": "/wegettravel/static/js/runtime-main.69927d96.js",
     "runtime-main.js.map": "/wegettravel/static/js/runtime-main.69927d96.js.map",
-    "static/css/2.f81aa485.chunk.css": "/wegettravel/static/css/2.f81aa485.chunk.css",
-    "static/js/2.4a3af9ab.chunk.js": "/wegettravel/static/js/2.4a3af9ab.chunk.js",
-    "static/js/2.4a3af9ab.chunk.js.map": "/wegettravel/static/js/2.4a3af9ab.chunk.js.map",
+    "static/css/2.39646de0.chunk.css": "/wegettravel/static/css/2.39646de0.chunk.css",
+    "static/js/2.d2f76395.chunk.js": "/wegettravel/static/js/2.d2f76395.chunk.js",
+    "static/js/2.d2f76395.chunk.js.map": "/wegettravel/static/js/2.d2f76395.chunk.js.map",
     "index.html": "/wegettravel/index.html",
-    "precache-manifest.9d404a149ae735ef16bd8f30be35d810.js": "/wegettravel/precache-manifest.9d404a149ae735ef16bd8f30be35d810.js",
+    "precache-manifest.b86a620f47888265c07b4b1a097c4d54.js": "/wegettravel/precache-manifest.b86a620f47888265c07b4b1a097c4d54.js",
     "service-worker.js": "/wegettravel/service-worker.js",
-    "static/css/2.f81aa485.chunk.css.map": "/wegettravel/static/css/2.f81aa485.chunk.css.map",
-    "static/css/main.ba7d5857.chunk.css.map": "/wegettravel/static/css/main.ba7d5857.chunk.css.map",
+    "static/css/2.39646de0.chunk.css.map": "/wegettravel/static/css/2.39646de0.chunk.css.map",
+    "static/css/main.9f22aed4.chunk.css.map": "/wegettravel/static/css/main.9f22aed4.chunk.css.map",
     "static/media/App.css": "/wegettravel/static/media/helveticaneuecyr-thin.dc855446.woff",
     "static/media/WeGetTravel.png": "/wegettravel/static/media/WeGetTravel.372dc642.png",
     "static/media/bg.jpg": "/wegettravel/static/media/bg.8acf5cf5.jpg",
@@ -39,9 +39,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.69927d96.js",
-    "static/css/2.f81aa485.chunk.css",
-    "static/js/2.4a3af9ab.chunk.js",
-    "static/css/main.ba7d5857.chunk.css",
-    "static/js/main.d4e9913a.chunk.js"
+    "static/css/2.39646de0.chunk.css",
+    "static/js/2.d2f76395.chunk.js",
+    "static/css/main.9f22aed4.chunk.css",
+    "static/js/main.6a30ac93.chunk.js"
   ]
 }
