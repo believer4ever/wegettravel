@@ -9,11 +9,7 @@ function App() {
   return (
     // <Router>
       <div className="App">
-<<<<<<< HEAD
-      <Main />
-=======
       <Hotels />
->>>>>>> parent of 2c8aa57... added routing
       {/* <Switch>
         <Route exact path="/" component={Main} />>
         <Route path="/hotel" component={Hotels} />

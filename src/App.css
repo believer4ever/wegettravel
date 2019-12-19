@@ -698,11 +698,7 @@
   object-fit: cover;
 }
 .hotels-top-dropdowns {
-<<<<<<< HEAD
-  font-size: 22px;
-=======
   font-size: 14px;
->>>>>>> parent of 2c8aa57... added routing
   color: #ffffff !important;
   border-radius: 10px !important;
   border: none !important;

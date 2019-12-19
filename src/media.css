@@ -2,9 +2,6 @@
     .ant-select-selection__rendered {
         height: 99px!important;
     }
-    .test-class {
-        font-size: 20px;
-    }
     .ant-select-search__field{
         height: 99px!important;
         border: none!important;
